@@ -1,4 +1,4 @@
-package javaexamples.jndi;
+package pranav.java.jndi;
 
 import java.util.Hashtable;
 
