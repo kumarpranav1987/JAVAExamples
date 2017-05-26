@@ -30,7 +30,7 @@ class MyTask implements Callable<String> {
 
 }
 
-public class MyCompletitionService {
+public class LearnCompletitionService {
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		List<MyTask> taskList = new ArrayList<>();
 		taskList.add(new MyTask(5000));
