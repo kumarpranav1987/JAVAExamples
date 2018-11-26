@@ -11,6 +11,7 @@ public class TestString {
 		//String Object
 		String s3 = new String("Test");
 		final String s4 = s3.intern();
+		
 		System.out.println(s1 == s2);
 		System.out.println(s2 == s3);
 		System.out.println(s3 == s4);
