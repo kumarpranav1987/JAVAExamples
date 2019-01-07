@@ -3,8 +3,8 @@ package pranav.java.thread;
 public class ThreadLocalExample {
 	public static void main(String[] args) throws InterruptedException {
 		Counter counter = new Counter();
-		//Runnable runnable = new SimpleRunnable();
-		Runnable runnable = new ThreadLocalRunnable();
+		Runnable runnable = new SimpleRunnable();
+		//Runnable runnable = new ThreadLocalRunnable();
 		Thread firstThread = new Thread(runnable, "First Thread");
 		Thread secondThread = new Thread(runnable, "Seconds Thread");
 		firstThread.start();
